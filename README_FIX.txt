@@ -1,0 +1,1 @@
+Nadpisz pliki w repo (index.html, content/site.json, admin/, logo.jpeg). Twarde odświeżenie: Ctrl+F5.
