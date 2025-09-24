@@ -1,1 +1,79 @@
-{ "title": "Jeep Adventure", "lang": "pl" }
+{
+  "brand": "Jeep Adventure",
+  "seo_description": "Wyjazdy jeepami w góry — Podhale, Gorce, Beskid Wyspowy. Off‑road legalnymi drogami, widokowe grzbiety, ognisko, zachody słońca. W jednym jeepie 4–5 osób, w dwóch pojazdach 7–8.",
+  "hero": {
+    "tag": "Off‑road w górach",
+    "title": "Wyjazdy jeepami po górskich szlakach",
+    "subtitle_long": "Nasze wypady prowadzimy głównie w Gorcach i Beskidzie Wyspowym: okolice Turbacza (Kowaniec, Obidowiec, Kudłoń), Mogielicy (Polana Stumorgowa, Łopień) oraz widokowe drogi Podhala. Startujemy najczęściej z Nowego Targu, Rabki lub Krościenka. Dobieramy trasę do ekipy i pogody — od grzbietowych panoram po bardziej terenowe dukty. Po drodze robimy foto‑przystanki i krótkie podejścia. Opcjonalnie kończymy ogniskiem przy zachodzie słońca.",
+    "image_url": "https://images.unsplash.com/photo-1504215680853-026ed2a45def?q=80&w=1600&auto=format&fit=crop",
+    "stats": {
+      "duration": "4–6 h",
+      "capacity": "4–5 os. / jeep",
+      "peak": "⛰ Turbacz • Mogielica"
+    },
+    "capacity_note": "W jednym jeepie zabieramy 4–5 osób. W dwóch pojazdach jedzie 7–8 osób."
+  },
+  "routes_blurb": {
+    "title": "Trasy: Turbacz, Mogielica, Podhale",
+    "text": "Najczęściej jedziemy: Turbacz (Kowaniec → Schronisko/Obidowiec), Kudłoń i polany gorczańskie; Beskid Wyspowy: Mogielica (polany widokowe) i Łopień; oraz lokalne grzbiety Podhala. Start umawiamy zwykle z Nowego Targu, Rabki lub Krościenka. Tempo turystyczne, przerwy na zdjęcia i krótkie wejścia. Fragmenty trudniejsze omawiamy wcześniej — zawsze legalnymi drogami i bezpiecznie dla załogi."
+  },
+  "contact": {
+    "phone_display": "+48 512 295 595",
+    "phone_link": "+48512295595",
+    "email": "jastrzab1515@gmail.com",
+    "facebook_url": "https://www.facebook.com/share/1H1spckU2m/?mibextid=wwXIfr",
+    "whatsapp": "48512295595"
+  },
+  "cta": {
+    "write": "Napisz",
+    "call": "Zadzwoń",
+    "book": "Zarezerwuj"
+  },
+  "services": [
+    {
+      "title": "Trasy widokowe",
+      "summary": "Grzbietowe drogi z panoramą Tatr i Gorców. Idealne na pierwszy raz, rodzinnie i foto.",
+      "details": "Trasa przez polany i punkty widokowe (np. Turbacz i okolice). Przystanki na zdjęcia, krótki spacer. Możliwe ognisko.",
+      "tag": "Rodzinnie",
+      "duration": "4–5 h",
+      "people": "4–5 os. (7–8 w 2 jeepach)",
+      "hero_image": "https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=1600&auto=format&fit=crop"
+    },
+    {
+      "title": "Off‑road terenowy",
+      "summary": "Szuter, koleiny, podjazdy i zjazdy — w bezpiecznym zakresie, z briefingiem przed trudniejszymi odcinkami.",
+      "details": "Dobór wariantu do ekipy i warunków. Odcinki w Gorcach i na Mogielicy, zawsze legalnymi drogami.",
+      "tag": "Adrenalina",
+      "duration": "4–6 h",
+      "people": "4–5 os. (7–8 w 2 jeepach)",
+      "hero_image": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1600&auto=format&fit=crop"
+    },
+    {
+      "title": "Zachód słońca + ognisko",
+      "summary": "Złota godzina na grzbiecie i ognisko z widokiem na Tatry — świetny finał wyjazdu.",
+      "details": "Sprzęt i drewno po naszej stronie. Dobór miejscówki do pogody (np. polany pod Turbaczem).",
+      "tag": "Klimat",
+      "duration": "ok. 4 h",
+      "people": "4–5 os. (7–8 w 2 jeepach)",
+      "hero_image": "https://images.unsplash.com/photo-1516383607781-913a19294fd1?q=80&w=1600&auto=format&fit=crop"
+    }
+  ],
+  "gallery": [
+    {
+      "url": "https://images.unsplash.com/photo-1485968579580-b6d095142e6e?q=80&w=1600&auto=format&fit=crop",
+      "caption": "Gorce — grzbiet pod Turbaczem, panorama Tatr."
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1516383607781-913a19294fd1?q=80&w=1600&auto=format&fit=crop",
+      "caption": "Zachód słońca nad Podhalem — przerwa na zdjęcia."
+    },
+    {
+      "url": "https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1600&auto=format&fit=crop",
+      "caption": "Mogielica — terenowy odcinek przez polany i dukty."
+    }
+  ],
+  "booking": {
+    "lead": "Wybierz termin i daj znać ile osób jedzie. Odpiszemy z potwierdzeniem i propozycją trasy.",
+    "note": "W jednym jeepie 4–5 osób. Dla 7–8 osób podstawiamy dwa pojazdy."
+  }
+}
