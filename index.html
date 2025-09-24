@@ -1,1 +1,149 @@
-<!doctype html><html><body><h1>Jeep Adventure</h1><p>Sprawdź /content/site.json i panel CMS.</p></body></html>
+<!doctype html>
+<html lang="pl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Jeep Adventure – Wyjazdy jeepami w góry | Podhale • Gorce • Beskid Wyspowy</title>
+  <meta name="description" content="Wyjazdy jeepami w góry: Gorce (Turbacz), Beskid Wyspowy (Mogielica) i widokowe drogi Podhala. 4–5 osób w jeepie, 7–8 w dwóch pojazdach. Zadzwoń: +48 512 295 595." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+  <style>
+    :root{--bg:#0b1220;--panel:#121a2b;--muted:#8aa0c5;--text:#eaf0ff;--cta:#1dd1a1}
+    *{box-sizing:border-box} html,body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Arial,sans-serif}
+    .container{max-width:1100px;margin:0 auto;padding:20px}
+    .header{display:flex;align-items:center;justify-content:space-between;padding:12px 0}
+    .brand{display:flex;gap:12px;align-items:center}
+    .brand img{height:40px;width:auto;border-radius:6px}
+    .brand h1{font-size:20px;margin:0}
+    .nav a{color:#9fb4db;text-decoration:none;margin-left:16px;font-weight:600}
+    .nav a:hover{color:#fff}
+    .hero{display:grid;grid-template-columns:1.2fr 1fr;gap:24px;margin-top:20px}
+    .card{background:var(--panel);border:1px solid #1f2940;border-radius:16px;padding:22px;box-shadow:0 10px 30px rgba(0,0,0,.25)}
+    .badge{display:inline-block;background:#1f2940;color:#9fb4db;border-radius:999px;padding:6px 12px;font-weight:700;font-size:12px;margin-bottom:14px}
+    .hero h2{font-size:42px;line-height:1.05;margin:6px 0 10px}
+    .hero p{color:var(--muted);font-size:16px}
+    .stats{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:18px}
+    .stat{background:#0e1729;border:1px solid #22314e;border-radius:12px;padding:10px 12px;text-align:center}
+    .stat b{display:block;font-size:16px}
+    .cta{display:flex;gap:10px;margin-top:16px;flex-wrap:wrap}
+    .btn{border:none;border-radius:10px;padding:12px 16px;font-weight:800;cursor:pointer}
+    .btn-primary{background:var(--cta);color:#082016}
+    .btn-secondary{background:#1e2b46;color:#d9e6ff}
+    .phone{font-weight:800}
+    .figure{border-radius:18px;overflow:hidden}
+    .figure img{display:block;width:100%;height:100%;object-fit:cover}
+    .section{margin-top:36px}
+    .section h3{margin:0 0 10px;font-size:24px}
+    .grid-3{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}
+    .service .tag{font-size:12px;color:#9fb4db;margin-top:6px}
+    .footer{margin-top:36px;padding:18px 0;color:#9fb4db;border-top:1px solid #22314e}
+    a{text-decoration:none} a.link{color:#9fd8ff}
+    .gallery{display:grid;grid-template-columns:repeat(3,1fr);gap:12px}
+    .gallery figure{margin:0}
+    .gallery img{width:100%;height:200px;object-fit:cover;border-radius:12px;border:1px solid #22314e}
+    .gallery figcaption{color:#9fb4db;font-size:13px;margin-top:6px}
+    .note{color:#9fb4db;font-size:14px;margin-top:6px}
+    @media (max-width:900px){.hero{grid-template-columns:1fr}.grid-3{grid-template-columns:1fr}.gallery{grid-template-columns:1fr}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="brand">
+        <img src="logo.jpeg" alt="Jeep Adventure logo" />
+        <h1>Jeep Adventure</h1>
+      </div>
+      <nav class="nav">
+        <a href="#uslugi">Usługi</a>
+        <a href="#trasy">Trasy</a>
+        <a href="#kontakt">Kontakt</a>
+        <a href="#rezerwacja">Rezerwacja</a>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="card">
+        <div class="badge">Off-road w górach</div>
+        <h2>Wyjazdy jeepami po górskich szlakach</h2>
+        <p>Prowadzimy wypady w Gorcach i Beskidzie Wyspowym: Turbacz (Kowaniec, Obidowiec, Kudłoń), Mogielica (Polana Stumorgowa, Łopień) oraz widokowe drogi Podhala. Start: Nowy Targ, Rabka lub Krościenko. Tempo turystyczne, foto-przystanki, krótkie podejścia. Opcjonalnie ognisko o zachodzie słońca.</p>
+        <div class="cta">
+          <a class="btn btn-primary" href="https://wa.me/48512295595">Napisz</a>
+          <a class="btn btn-secondary phone" href="tel:+48512295595">Zadzwoń: 512 295 595</a>
+          <a class="btn btn-secondary" href="#rezerwacja">Zarezerwuj</a>
+        </div>
+        <div class="stats">
+          <div class="stat"><b>4–6 h</b><span>czas wypadu</span></div>
+          <div class="stat"><b>4–5 os.</b><span>na jeden jeep</span></div>
+          <div class="stat"><b>⛰</b><span>Turbacz • Mogielica</span></div>
+        </div>
+        <div class="note">W jednym jeepie zabieramy 4–5 osób. W dwóch pojazdach jedzie 7–8 osób.</div>
+      </div>
+      <div class="figure">
+        <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1600&auto=format&fit=crop" alt="Jeep off-road">
+      </div>
+    </section>
+
+    <section id="trasy" class="section">
+      <h3>Trasy: Turbacz, Mogielica, Podhale</h3>
+      <div class="card">
+        Najczęściej jedziemy: Turbacz (Kowaniec → Schronisko/Obidowiec), Kudłoń i polany gorczańskie; Beskid Wyspowy – Mogielica (polany widokowe) i Łopień; oraz lokalne grzbiety Podhala. Start umawiamy zwykle z Nowego Targu, Rabki lub Krościenka. Zawsze legalnymi drogami i z naciskiem na bezpieczeństwo.
+      </div>
+    </section>
+
+    <section id="uslugi" class="section">
+      <h3>Usługi</h3>
+      <div class="grid-3">
+        <div class="card service">
+          <h4>Trasy widokowe</h4>
+          <p>Grzbietowe drogi z panoramą Tatr i Gorców, idealne na pierwszy raz i rodzinny wypad. Przystanki foto, krótki spacer.</p>
+          <div class="tag">4–5 os. • 4–5 h</div>
+        </div>
+        <div class="card service">
+          <h4>Off-road terenowy</h4>
+          <p>Szuter, koleiny, podjazdy – w bezpiecznym zakresie i po briefingu. Wariant dostosowujemy do ekipy i pogody.</p>
+          <div class="tag">4–5 os. • 4–6 h</div>
+        </div>
+        <div class="card service">
+          <h4>Zachód słońca + ognisko</h4>
+          <p>Złota godzina na grzbiecie i ognisko z widokiem. Sprzęt i drewno po naszej stronie. Miejscówka pod pogodę.</p>
+          <div class="tag">4–5 os. • ok. 4 h</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <h3>Galeria</h3>
+      <div class="gallery">
+        <figure>
+          <img src="https://images.unsplash.com/photo-1485968579580-b6d095142e6e?q=80&w=1600&auto=format&fit=crop" alt="Gorce – Turbacz" />
+          <figcaption>Gorce — grzbiet pod Turbaczem, panorama Tatr.</figcaption>
+        </figure>
+        <figure>
+          <img src="https://images.unsplash.com/photo-1516383607781-913a19294fd1?q=80&w=1600&auto=format&fit=crop" alt="Zachód nad Podhalem" />
+          <figcaption>Zachód słońca nad Podhalem — przerwa na zdjęcia.</figcaption>
+        </figure>
+        <figure>
+          <img src="https://images.unsplash.com/photo-1503376780353-7e6692767b70?q=80&w=1600&auto=format&fit=crop" alt="Mogielica – teren" />
+          <figcaption>Mogielica — terenowy odcinek przez polany i dukty.</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section id="rezerwacja" class="section">
+      <h3>Rezerwacja</h3>
+      <div class="card">
+        Wybierz termin i daj znać ile osób jedzie — odpiszemy z potwierdzeniem i propozycją trasy.<br/>
+        <b>Telefon:</b> <a class="link" href="tel:+48512295595">+48 512 295 595</a> • 
+        <b>E-mail:</b> <a class="link" href="mailto:jastrzab1515@gmail.com">jastrzab1515@gmail.com</a> • 
+        <b>Messenger:</b> <a class="link" href="https://www.facebook.com/share/1H1spckU2m/?mibextid=wwXIfr" target="_blank">Facebook</a>
+      </div>
+    </section>
+
+    <footer id="kontakt" class="footer">
+      Jeep Adventure — Podhale • Gorce • Beskid Wyspowy. 4–5 osób w jeepie, 7–8 w dwóch pojazdach. 
+      <span style="float:right">tel. <a class="link" href="tel:+48512295595">512 295 595</a></span>
+    </footer>
+  </div>
+</body>
+</html>
