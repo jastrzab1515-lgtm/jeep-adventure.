@@ -1,0 +1,1 @@
+Pliki do CMS. Struktura kompletna.
